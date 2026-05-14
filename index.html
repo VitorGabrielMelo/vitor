@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instituição Educacional</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Instituição Futuro</h1>
+
+      <nav class="space-x-6 hidden md:block">
+        <a href="#" class="hover:text-yellow-300 transition">Início</a>
+        <a href="#" class="hover:text-yellow-300 transition">Cursos</a>
+        <a href="#" class="hover:text-yellow-300 transition">Sobre</a>
+        <a href="#" class="hover:text-yellow-300 transition">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-blue-800 text-white py-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-5xl font-bold mb-6">
+        Transformando o Futuro pela Educação
+      </h2>
+
+      <p class="text-xl mb-8 max-w-3xl mx-auto">
+        Uma instituição dedicada ao ensino de qualidade,
+        inovação tecnológica e desenvolvimento humano.
+      </p>
+
+      <button class="bg-yellow-400 text-blue-900 font-bold px-8 py-4 rounded-xl hover:bg-yellow-300 transition">
+        Saiba Mais
+      </button>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <h3 class="text-4xl font-bold text-blue-900 mb-6">
+          Sobre a Instituição
+        </h3>
+
+        <p class="text-lg leading-relaxed mb-4">
+          Nossa missão é oferecer educação acessível,
+          moderna e alinhada às necessidades do mercado
+          e da sociedade.
+        </p>
+
+        <p class="text-lg leading-relaxed">
+          Contamos com professores qualificados,
+          laboratórios modernos e metodologias inovadoras
+          para preparar nossos alunos para o futuro.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-3xl shadow-xl p-10">
+        <div class="grid grid-cols-2 gap-6 text-center">
+
+          <div>
+            <h4 class="text-4xl font-bold text-blue-800">+5 mil</h4>
+            <p>Alunos</p>
+          </div>
+
+          <div>
+            <h4 class="text-4xl font-bold text-blue-800">50+</h4>
+            <p>Cursos</p>
+          </div>
+
+          <div>
+            <h4 class="text-4xl font-bold text-blue-800">20 anos</h4>
+            <p>Experiência</p>
+          </div>
+
+          <div>
+            <h4 class="text-4xl font-bold text-blue-800">98%</h4>
+            <p>Satisfação</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Cursos -->
+  <section class="bg-white py-16">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <h3 class="text-4xl font-bold text-center text-blue-900 mb-12">
+        Cursos em Destaque
+      </h3>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-gray-100 rounded-2xl p-8 shadow hover:shadow-xl transition">
+          <h4 class="text-2xl font-bold mb-4">Tecnologia</h4>
+          <p>
+            Cursos voltados para programação,
+            inteligência artificial e desenvolvimento web.
+          </p>
+        </div>
+
+        <div class="bg-gray-100 rounded-2xl p-8 shadow hover:shadow-xl transition">
+          <h4 class="text-2xl font-bold mb-4">Administração</h4>
+          <p>
+            Formação em gestão, empreendedorismo
+            e liderança empresarial.
+          </p>
+        </div>
+
+        <div class="bg-gray-100 rounded-2xl p-8 shadow hover:shadow-xl transition">
+          <h4 class="text-2xl font-bold mb-4">Saúde</h4>
+          <p>
+            Capacitação profissional para atuar
+            nas áreas da saúde e bem-estar.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="py-16">
+    <div class="max-w-4xl mx-auto px-6">
+
+      <div class="bg-blue-900 text-white rounded-3xl p-10 shadow-2xl">
+
+        <h3 class="text-4xl font-bold mb-8 text-center">
+          Entre em Contato
+        </h3>
+
+        <form class="space-y-6">
+
+          <input
+            type="text"
+            placeholder="Seu nome"
+            class="w-full p-4 rounded-xl text-gray-800 outline-none"
+          />
+
+          <input
+            type="email"
+            placeholder="Seu e-mail"
+            class="w-full p-4 rounded-xl text-gray-800 outline-none"
+          />
+
+          <textarea
+            rows="5"
+            placeholder="Sua mensagem"
+            class="w-full p-4 rounded-xl text-gray-800 outline-none"
+          ></textarea>
+
+          <button
+            class="bg-yellow-400 text-blue-900 font-bold px-8 py-4 rounded-xl hover:bg-yellow-300 transition w-full"
+          >
+            Enviar Mensagem
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>
+      © 2026 Instituição Futuro — Todos os direitos reservados.
+    </p>
+  </footer>
+
+</body>
+</html>
